@@ -47,7 +47,7 @@ Ketika exception dilempar ke dalam blok try, eksekusi segera dilanjutkan ke akhi
 ## Contoh 6
     - Berikut adalah contoh untuk satu pengecualian
     - Source code & Output dari contoh 6 :
-![gambar6](Screenshoot/ica6.jpeg))
+![gambar6](Screenshoot/ica6.jpeg)
 
 ## Contoh 7
     - Pengecualian dapat berupa string, kelas, atau objek. Sebagian besar pengecualian adalah pengecualian dari inti Python menimbulkan adalah kelas, dengan argumen=argumen yang merupakan turunan dari kelas. Mendefinisikan pengecualian barucukup mudah dan dapat dilakukan sebagai berikut:
