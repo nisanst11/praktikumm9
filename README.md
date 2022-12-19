@@ -16,7 +16,7 @@ MATKUL  : BAHASA PEMROGRAMAN
 ## Contoh 1
     - Berikut adalah fungsi yang mengubah suhu dari derajat kelvin menjadi derajat Fahrenheit. Karena nol derajat Kelvin sedingin itu, fungsi ditebus jika melihat suhu negatif.
     - Source code & Output dari contoh 1 :
-![gambar1](gambar/self1.png)
+![gambar1](Screenshoot/ica1.jpeg)
 
 # MENANGANI PENGECUALIAN
 Jika Anda memiliki beberapa kode mencurigakan yang mungkin mengeluarkan pengecualian, Anda dapat mempertahankan program Anda letakkan kode yang mencurigakan di *try: blok. Setelah coba: blok, sertakan pernyataan sertakan *except: statemen, diikuti oleh blok kode yang menangani masalah seanggun mungkin.
@@ -24,21 +24,21 @@ Jika Anda memiliki beberapa kode mencurigakan yang mungkin mengeluarkan pengecua
 ## Contoh 2
     - Contoh dibawah ini untuk membuka file, menulis konten di file, dan keluar dengan anggun karena ada tidak masalah.
     - Source code & Output dari contoh 2 :
-![gambar2](gambar/self2.png)
+![gambar2](Screenshoot/ica2.jpeg)
 
 ## Contoh 3
     - Contoh ini mencoba membuka file yang anda tidak memiliki izin menulis, sehingga menimbulkan pengecualian.
     - Source code & Output dari contoh 3 :
-![gambar3](gambar/self3.png)
+![gambar3](Screenshoot/ica3.jpeg)
 
 # KLAUSUL COBA-AKHIRNYA
 
 ## Contoh 4 & 5
     - Jika anda tidak memiliki izin untuk membuka file dalam mode penulisan, maka ini akan menghasilkan file sebagai berikut :
-![gambar4](gambar/self4.png)
+![gambar4](Screenshoot/ica4.jpeg)
 
     - Contoh yang sama dapat ditulis lebih bersih sebagai berikut :
-![gambar5](gambar/self5.png)
+![gambar5](Screenshoot/ica5.jpeg)
 
 Ketika exception dilempar ke dalam blok try, eksekusi segera dilanjutkan ke akhir memblok. Setelah semua pernyataan di blok akhirnya dieksekusi, pengecualian dimunculkan lagi dan ditangani dalam pernyataan kecuali jika ada di lapisan berikutnya yang lebih tinggi dari percobaan-kecuali penyataan.
 
@@ -47,11 +47,11 @@ Ketika exception dilempar ke dalam blok try, eksekusi segera dilanjutkan ke akhi
 ## Contoh 6
     - Berikut adalah contoh untuk satu pengecualian
     - Source code & Output dari contoh 6 :
-![gambar6](gambar/self6.png)
+![gambar6](Screenshoot/ica6.jpeg))
 
 ## Contoh 7
     - Pengecualian dapat berupa string, kelas, atau objek. Sebagian besar pengecualian adalah pengecualian dari inti Python menimbulkan adalah kelas, dengan argumen=argumen yang merupakan turunan dari kelas. Mendefinisikan pengecualian barucukup mudah dan dapat dilakukan sebagai berikut:
-![gambar7](gambar/self7.png)
+![gambar7](screenshoot/ica7.jpeg)
 
 ## Pengecualian yang Ditetapkan Pengguna
     - Python juga memungkinkan Anda membuat pengecualian sendiri dengan menurunkan kelas-kelas dari yang standar pengecualian bawaan.
@@ -59,4 +59,4 @@ Ketika exception dilempar ke dalam blok try, eksekusi segera dilanjutkan ke akhi
     - Di blok coba, pengecualian yang ditentukan pengguna dimunculkan dan ditangkap di blok kecuali. Itu variabel e digunakan untuk membuat instance dari kelas Networkerror.
 
 ## Contoh 8
-![gambar8](gambar/self8.png)
+![gambar8](Screenshoot/ica8.jpeg)
